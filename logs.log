@@ -24891,3 +24891,9 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
 2024-04-04 16:45:50,585:WARNING:
 'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-04-04 16:50:21,269:WARNING:C:\Users\elpiz\AppData\Local\Temp\ipykernel_3832\1226738953.py:4: DeprecationWarning: Accessing attr.__version__ is deprecated and will be removed in a future release. Use importlib.metadata directly to query for attrs's packaging metadata.
+  installed_packages = [f"{package}=={version}" for package, version in zip(sys.modules.keys(), sys.modules.values()) if hasattr(version, '__version__')]
+
+2024-04-04 16:50:30,509:WARNING:C:\Users\elpiz\AppData\Local\Temp\ipykernel_3832\1226738953.py:4: DeprecationWarning: Accessing attr.__version__ is deprecated and will be removed in a future release. Use importlib.metadata directly to query for attrs's packaging metadata.
+  installed_packages = [f"{package}=={version}" for package, version in zip(sys.modules.keys(), sys.modules.values()) if hasattr(version, '__version__')]
+
