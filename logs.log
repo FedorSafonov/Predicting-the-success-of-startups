@@ -24897,3 +24897,20 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 2024-04-04 16:50:30,509:WARNING:C:\Users\elpiz\AppData\Local\Temp\ipykernel_3832\1226738953.py:4: DeprecationWarning: Accessing attr.__version__ is deprecated and will be removed in a future release. Use importlib.metadata directly to query for attrs's packaging metadata.
   installed_packages = [f"{package}=={version}" for package, version in zip(sys.modules.keys(), sys.modules.values()) if hasattr(version, '__version__')]
 
+2024-04-04 21:21:17,723:WARNING:c:\Users\elpiz\anaconda3\envs\ds_practicum_env\lib\site-packages\seaborn\_decorators.py:36: FutureWarning: Pass the following variable as a keyword arg: x. From version 0.12, the only valid positional argument will be `data`, and passing other arguments without an explicit keyword will result in an error or misinterpretation.
+  warnings.warn(
+
+2024-04-05 16:02:12,954:WARNING:C:\Users\elpiz\AppData\Local\Temp\ipykernel_3832\564343913.py:4: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  missing_first_funding['mean_time_between_rounds'] = (missing_first_funding['last_funding_at'] - missing_first_funding['founded_at']) / missing_first_funding['funding_rounds']
+
+2024-04-05 16:02:12,957:WARNING:C:\Users\elpiz\AppData\Local\Temp\ipykernel_3832\564343913.py:7: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  missing_first_funding['first_funding_at'] = missing_first_funding['founded_at'] + missing_first_funding['mean_time_between_rounds']
+
