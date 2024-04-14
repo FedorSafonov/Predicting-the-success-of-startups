@@ -24914,3 +24914,17 @@ Try using .loc[row_indexer,col_indexer] = value instead
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
   missing_first_funding['first_funding_at'] = missing_first_funding['founded_at'] + missing_first_funding['mean_time_between_rounds']
 
+2024-04-06 02:28:55,628:WARNING:C:\Users\elpiz\AppData\Local\Temp\ipykernel_3832\638301104.py:3: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  missing_first_funding['mean_time_between_rounds'] = ((missing_first_funding['last_funding_at'] -
+
+2024-04-06 02:28:55,630:WARNING:C:\Users\elpiz\AppData\Local\Temp\ipykernel_3832\638301104.py:6: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  missing_first_funding['first_funding_at'] = (missing_first_funding['founded_at'] +
+
