@@ -301,6 +301,3 @@ yfinance==0.2.31
 zipp==3.16.2
 zope.event==5.0
 zope.interface==6.2
--atplotlib==3.3.4
--illow==10.0.0
--rotobuf==3.20.0
