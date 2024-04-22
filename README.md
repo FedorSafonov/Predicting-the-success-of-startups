@@ -1,5 +1,5 @@
 # Предсказание успешности стартапов.
-[Полный отчёт можно почитать в Report.MD.](https://github.com/FedorSafonov/Predicting-the-success-of-startups/blob/main/Report.MD)
+[Полный отчёт можно почитать в Report.md.](https://github.com/FedorSafonov/Predicting-the-success-of-startups/blob/main/Report.md)
 
 ## Описание
 
