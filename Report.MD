@@ -89,19 +89,6 @@
 ![Рисунок 8. Матрица корреляций (только с таргетом)](image-7.png)
 * Корреляция с закодированным списком категорий
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -115,11 +102,6 @@
       <th>category_list_encoded</th>
       <td>1.000000</td>
       <td>0.718351</td>
-    </tr>
-    <tr>
-      <th>status</th>
-      <td>0.718351</td>
-      <td>1.000000</td>
     </tr>
   </tbody>
 </table>
